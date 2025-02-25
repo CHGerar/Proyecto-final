@@ -12,7 +12,7 @@ def elegir_auto():
     
     print("Autos disponibles:")
     for i, auto in enumerate(autos, 1):
-        print(f"{i}. {auto}")
+        print(f"{i} {auto}")
     
     while True:
         try:
